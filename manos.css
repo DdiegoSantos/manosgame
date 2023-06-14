@@ -1,0 +1,219 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #a55a5a;        
+}
+
+a{
+    text-decoration: none;
+}
+div#carouselExampleAutoplaying{
+    width: 70%;
+    margin: 0 auto;
+}
+article{
+    width: 100%;
+    background-color: #058fda;
+    border: none;
+    padding: 2vw 0;
+}
+nav#menu{
+    position: relative;
+    width: 100%;
+   
+      
+}
+header div#logoTopo img{
+    width: 15vw;
+    min-width: 180px;
+}
+header div#logoTopo{
+    width: 100%;
+    background: url("imagem/fundo-topo.png")no-repeat 100% 100%;
+    background-size: 100%;
+    text-align: center;
+}
+section div#instalacao{
+    padding-top:clamp(15vw, 16vw, 200px);
+    padding-bottom:clamp(15vw, 16vw, 200px);
+    text-align: center;
+    background-color: #00A5FE; 
+}
+section div#instalacao h1{    
+    font-size: clamp(8pt, 1.8vw, 2vw);
+    color:#fff;
+}
+section div#instalacao img{
+    width: 65%;
+    max-width: 1000px;
+    margin: 50px 0;
+}
+div#contatos{
+    text-align: center;
+    color:#fff;
+    padding: 20px 1em;
+    background-color: #333;
+    font-size: 1em;
+}
+div#contatos img{
+    height: 2em;
+}
+#end{
+    font-size: clamp(8pt, 1.8vw, 2vw);
+}
+ #tel{
+    font-size: clamp(13pt, 1.8vw, 2.2vw);
+}
+section div#ps4{
+    width: 100%;
+    text-align: center;
+    padding-top:clamp(15vw, 16vw, 200px);
+    padding-bottom:clamp(15vw, 16vw, 200px);
+    background:url("imagem/fifa-fundo3.png")no-repeat,linear-gradient(32deg,#c9c7c7,#ebe8e8);
+    background-size: auto 100%;    
+}
+section div#ps4 img{
+    width: 60%; 
+    margin: 3%;         
+}
+section div#ps4:hover img{
+    transform: scale(0.9);
+    transition: all 1.2s;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    
+}
+section div#ps4 h1{
+    margin-bottom: 1vw;
+    font-size: clamp(2vw, 3vw, 5vw);
+}
+section div#ps4 p{
+    font-size: clamp(8pt, 1.1em + 1.2vw, 1.5vw);
+    margin-top: 1em;
+}
+section div#ps3{
+    padding-top:clamp(15vw, 16vw, 200px);
+    padding-bottom:clamp(15vw, 16vw, 200px);
+    text-align: center;
+    width: 100%;
+    background-image: linear-gradient(90deg, rgb(121, 211, 247), rgb(69, 111, 248));
+    
+}
+section div#ps3 h1{
+    font-size: clamp(8pt, 2vw, 2.5vw);
+    font-weight: bold;
+    color: #fff;
+}
+section div#ps3 div#nvidea img{
+    width: 40%;
+    max-width: 300px;    
+}
+section div#ps3 img{
+    width: 60%;
+    margin: 2vw 0 3vw 0;
+}
+.ps2-vita p{
+    text-align: justify;
+    margin:2vw;
+}
+.ps2-vita{
+    width: 40%;
+    max-width: 700px;
+    min-width: 250px;
+    margin: 2vw auto;
+    background-color: #333;
+    color: #fff;
+    font-size: clamp(8pt, 1vw, 1.5vw);
+}
+section div#ps2-psvita{
+    
+    width: 100%;
+    display:flex;
+    flex-flow: wrap;
+    background: url("imagem/fundo-game.jpg") no-repeat 50% 50%;
+    background-size:  auto 100%;
+    padding-top:clamp(15vw, 16vw, 200px);
+    padding-bottom:clamp(15vw, 16vw, 200px);
+}
+section div#ps2-psvita img{
+    width: 100%;
+    
+}
+section div#xbox{
+    clear: both;
+    text-align: center;
+    background: url("imagem/fundo-controle-xbox.jpg") no-repeat 50% 50%;
+    background-size: auto 110%;
+    padding-top:clamp(15vw, 16vw, 200px);
+    padding-bottom:clamp(15vw, 16vw, 200px);
+}
+section div#xbox h1{
+    color: #fff;
+    font-size:clamp(5pt, 2vw, 5vw);
+    margin-top:-8vw;
+}
+section div#xbox img{
+    width: 60%;
+}
+section div#Snos{
+    clear: both;
+    padding-top:clamp(15vw, 16vw, 200px);
+    padding-bottom:clamp(15vw, 16vw, 200px);
+    background-color: #fff;
+    display:flex;
+    flex-flow: wrap;
+    overflow: hidden;
+}
+div#Snos p{
+    max-width: 45vw;
+    min-width: 250px;
+    margin: 0 auto 5vw auto;
+    text-align: justify;
+    font-size: Clamp(8pt, 2vw, 2.5vw);
+    
+}
+div#controle{
+    background: url("imagem/fundo-game02.webp")no-repeat 90% 50%;
+    background-size: auto 100%;
+    width: 40vw;
+    max-width:1000px;
+    min-width: 319px;
+    height: 40vw;
+    max-height: 1050px;
+    min-height: 250px;
+    margin:0 auto;
+}
+section div#maps{
+    text-align: center;
+    width: 100%;
+    padding-top:clamp(15vw, 16vw, 200px);
+    padding-bottom:clamp(15vw, 16vw, 200px);
+    background-image: linear-gradient(35deg, #fdfdfd, #a8a8a8);
+}
+div#maps img{
+    width: 18vw;
+    min-width:90px;
+}
+div#maps iframe{
+    margin:2vw auto;
+    width:50vw;
+    min-width: 250px;
+    height: 30vw;
+    min-height: 250px;
+}
+footer{
+    
+    text-align: center;
+    color:#fff;
+    background-color: #333;
+    padding: 2vw 0 1vw 0;
+    font-size: clamp(6pt, 1vw, 1vw);
+}
+section div.paginas{
+    padding-top:clamp(15vw, 16vw, 200px);
+    padding-bottom:clamp(15vw, 16vw, 200px);
+}
