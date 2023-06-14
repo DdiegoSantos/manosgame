@@ -72,8 +72,8 @@ div#contatos img{
 section div#ps4{
     width: 100%;
     text-align: center;
-    padding-top:clamp(15vw, 16vw, 200px);
-    padding-bottom:clamp(15vw, 16vw, 200px);
+    padding-top:clamp(18vw, 18vw, 200px);
+    padding-bottom:clamp(18vw, 18vw, 200px);
     background:url("imagem/fifa-fundo3.png")no-repeat,linear-gradient(32deg,#c9c7c7,#ebe8e8);
     background-size: auto 100%;    
 }
@@ -96,8 +96,8 @@ section div#ps4 p{
     margin-top: 1em;
 }
 section div#ps3{
-    padding-top:clamp(15vw, 16vw, 200px);
-    padding-bottom:clamp(15vw, 16vw, 200px);
+    padding-top:clamp(18vw, 18vw, 200px);
+    padding-bottom:clamp(18vw, 18vw, 200px);
     text-align: center;
     width: 100%;
     background-image: linear-gradient(90deg, rgb(121, 211, 247), rgb(69, 111, 248));
@@ -148,8 +148,8 @@ section div#xbox{
     text-align: center;
     background: url("imagem/fundo-controle-xbox.jpg") no-repeat 50% 50%;
     background-size: auto 110%;
-    padding-top:clamp(15vw, 16vw, 200px);
-    padding-bottom:clamp(15vw, 16vw, 200px);
+    padding-top:clamp(18vw, 18vw, 200px);
+    padding-bottom:clamp(18vw, 18vw, 200px);
 }
 section div#xbox h1{
     color: #fff;
@@ -161,8 +161,8 @@ section div#xbox img{
 }
 section div#Snos{
     clear: both;
-    padding-top:clamp(15vw, 16vw, 200px);
-    padding-bottom:clamp(15vw, 16vw, 200px);
+    padding-top:clamp(18vw, 18vw, 200px);
+    padding-bottom:clamp(18vw, 18vw, 200px);
     background-color: #fff;
     display:flex;
     flex-flow: wrap;
@@ -190,8 +190,8 @@ div#controle{
 section div#maps{
     text-align: center;
     width: 100%;
-    padding-top:clamp(15vw, 16vw, 200px);
-    padding-bottom:clamp(15vw, 16vw, 200px);
+    padding-top:clamp(18vw, 18vw, 200px);
+    padding-bottom:clamp(18vw, 18vw, 200px);
     background-image: linear-gradient(35deg, #fdfdfd, #a8a8a8);
 }
 div#maps img{
