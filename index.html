@@ -110,7 +110,7 @@
             <h1>Todos os jogos para o seu PS4</h1>
             <div id="imag">
                 <picture>
-                    <source media="(max-width: 800px)" srcset="imagem/instalamos-jogos-med.png">
+                    <source media="(max-width: 480px)" srcset="imagem/instalamos-jogos-med.png">
                     <img id="inPs4" src="imagem/instalamos-jogos.png" alt="Instalação de Jogos ps4">
                 </picture>
             </div>
@@ -124,7 +124,7 @@
             <h1>REALIZAMOS TODOS OS TIPOS DE REPAROS EM PS3</h1>
             <div >
                 <picture>
-                    <source media="(max-width:800px )" srcset="imagem/desbloqueio-ps3-pequ.png">
+                    <source media="(max-width:480px )" srcset="imagem/desbloqueio-ps3-pequ.png">
                     <img src="imagem/desbloqueio-ps3-gran.png" alt="imagem desbloqueio">
                 </picture>
             </div>
@@ -160,7 +160,7 @@
         </picture>
        </div>
     </section>
-    <section onmouseover="snos()" onmouseout="snosBranco()"><!--**** Sobre Nós ****-->
+    <section onload="snos()" onmouseout="snosBranco()"><!--**** Sobre Nós ****-->
         <div id="Snos">
             <p>
                 Sobre Nós:<br>
@@ -204,49 +204,6 @@
             </p>
         </div>
     </footer>
-<script>
-    function ps4(){
-       img = document.querySelector("#inPs4");
-       img.style.transform = "scale(1.1)" 
-       img.style.boxShadow = "0 0 2vw rgba(0,0,0,0.5)"
-       img.style.transition = " all 1s"  
-       img.style.position = "relative"     
-    }
-
-    function snos(){
-        let fundo = document.querySelector("#Snos");
-        let controle = document.querySelector("#controle");
-
-        fundo.style.background = "#000";
-        fundo.style.color = "#fff" ;
-        fundo.style.transition = "0.8s";
-        fundo.style.transitionDelay = "0.2s";
-
-        controle.style.backgroundPosition = "50% 50%";
-        controle.style.transition = "2s"
-        controle.style.boxShadow = "0 0 2vw #e0f806"
-    }
-
-    function snosBranco(){
-        let fundo = document.querySelector("#Snos");
-        let controle = document.querySelector("#controle");
-
-        fundo.style.background = "#fff";
-        fundo.style.transitionDelay = "0.5s"
-        fundo.style.color = "#000";
-
-        controle.style.backgroundPosition = "90% 50%";
-        controle.style.transition = "2s"
-        controle.style.boxShadow = "none"
-    }
-
-    function topo(){
-        let logo = document.querySelector("#logoM");
-
-        logo.style.transition = "5s";
-        logo.style.margin = "0";
-        
-    }
-</script>
+<script src="manos.js"></script>
 </body>
 </html>
