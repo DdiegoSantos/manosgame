@@ -194,6 +194,10 @@ section div#maps{
     padding-bottom:clamp(18vw, 18vw, 200px);
     background-image: linear-gradient(35deg, #fdfdfd, #a8a8a8);
 }
+div#maps p{
+    font-size: clamp(8pt, 1vw, 2vw);
+    color:#000;
+}
 div#maps img{
     width: 18vw;
     min-width:90px;
